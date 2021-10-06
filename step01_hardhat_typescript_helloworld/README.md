@@ -1,6 +1,7 @@
 # Basic Sample Hardhat Typescript Project
 
-[We will follow this typescript support page]:https://hardhat.org/guides/typescript.html
+
+[We will follow this typescript support page](https://hardhat.org/guides/typescript.html)
 
 Copy the files from step00_hardhat_helloworld
 
@@ -12,10 +13,11 @@ rename your config file to hardhat.config.ts
 
 We need to apply three changes to your config for it to work with TypeScript:
 
-Plugins must be loaded with import instead of require.
-You need to explicitly import the Hardhat config functions, like task.
-If you are defining tasks, they need to access the Hardhat Runtime Environment explicitly, as a parameter.
-For updating test and scripts [follow this]:https://hardhat.org/guides/typescript.html#writing-tests-and-scripts-in-typescript
+1- Plugins must be loaded with import instead of require.
+2- You need to explicitly import the Hardhat config functions, like task.
+3- If you are defining tasks, they need to access the Hardhat Runtime Environment explicitly, as a parameter.
+
+For updating test and scripts [follow this](https://hardhat.org/guides/typescript.html#writing-tests-and-scripts-in-typescript)
 
 For Type-safe smart contract interactions:
 
